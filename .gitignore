@@ -1,19 +1,3 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
-
 # Built application files
 *.apk
 *.aar
@@ -26,27 +10,25 @@ local.properties
 # Java class files
 *.class
 
-# Generated files
+# Generated files / Build output
 /bin/
 /gen/
 /out/
 /build/
 */build/
 
+.externalNativeBuild
+.cxx
+/captures
+
 # Gradle files
 .gradle/
-build/
 
 # Local configuration file (sdk path, etc)
 local.properties
 
-# Android Studio / IntelliJ IDEA
-.idea/workspace.xml
-.idea/caches
-.idea/libraries
-.idea/modules.xml
-.idea/navEditor.xml
-.idea/assetWizardSettings.xml
+# Android Studio / IntelliJ IDEA (개별 파일 대신 .idea/ 폴더 전체 지정)
+.idea/
 *.iml
 
 # Keystore & Secrets
