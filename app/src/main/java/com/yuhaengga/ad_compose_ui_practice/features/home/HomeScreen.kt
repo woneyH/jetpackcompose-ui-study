@@ -1,12 +1,10 @@
 package com.yuhaengga.ad_compose_ui_practice.features.home
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.yuhaengga.ad_compose_ui_practice.ui.theme.Ad_compose_ui_practiceTheme
 
@@ -20,7 +18,7 @@ fun HomeScreen(
     Scaffold(
         modifier = modifier
             .fillMaxSize(),
-        containerColor = MaterialTheme.colorScheme.onPrimary,
+        containerColor = MaterialTheme.colorScheme.surface,
         topBar = { HomeScreenTopBar(userName = "김원혁", profileImage = image) }
     ) { innerPadding ->
         HomeScreenContent(

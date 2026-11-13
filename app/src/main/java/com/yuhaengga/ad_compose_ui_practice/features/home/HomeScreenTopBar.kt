@@ -42,7 +42,7 @@ fun HomeScreenTopBar(
         Text(text = "Good\nMorning\n${userName}",
             fontSize = 40.sp,
             lineHeight = 48.sp,
-            modifier= modifier.weight(1f))
+            modifier= Modifier.weight(1f))
         RenderingUserImage(profileImage= profileImage)
     }
 }
